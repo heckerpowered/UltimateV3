@@ -14,3 +14,9 @@ download the source and run following command in the root directory of Ultimate-
 ```cmd
 gradlew setupDevWorkspace eclipse
 ```
+
+## Unique Features
+
+* Untargetable
+* Kill everything instantly
+* High compability
