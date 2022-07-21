@@ -1,14 +1,14 @@
 [
 {
-  "modid": "modid",
-  "name": "name",
-  "description": "a simple mod.",
+  "modid": "ultimate",
+  "name": "Ultimate Mod",
+  "description": "Ultimate Mod is an open-source Minecraft Mod with a focus on kill everything instantly.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["XXX"],
-  "credits": "This is a good idea!",
+  "authorList": ["Heckerpowered"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
