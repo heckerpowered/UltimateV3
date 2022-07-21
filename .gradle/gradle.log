@@ -13,221 +13,24 @@ See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more i
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
-:compileJava警告: [options] 未与 -source 1.6 一起设置引导类路径
-注: E:\Repos\Mod\1.7.10-UltimateV3\build\sources\java\heckerpowered\ultimate\common\item\ItemUltimateSword.java使用或覆盖了已过时的 API。
-注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
-1 个警告
-
-:processResources
-:classes
-:jar
+:sourceMainJava UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData UP-TO-DATE
 :getVersionJson
 :extractUserDev UP-TO-DATE
-:extractNatives UP-TO-DATE
-:getAssetsIndex
-:getAssets
-:makeStart
-[ant:javac] 警告: [options] 未与 -source 1.6 一起设置引导类路径
-[ant:javac] 1 个警告
-:runClient
-[19:07:26] [main/INFO] [GradleStart]: Extra: []
-[19:07:26] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:/Program/Program Data/IDE/Gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[19:07:26] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[19:07:26] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[19:07:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:07:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[19:07:26] [main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
-[19:07:26] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_321, running on Windows 10:amd64:10.0, installed at E:\Program\Java\jdk1.8.0_321\jre
-[19:07:26] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[19:07:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:07:26] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[19:07:26] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[19:07:26] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:07:26] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[19:07:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:07:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:07:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:07:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:07:27] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[19:07:28] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[19:07:28] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:07:28] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[19:07:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:07:28] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[19:07:28] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[19:07:28] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[19:07:29] [main/INFO]: Setting user: Player448
-[19:07:30] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:07:31] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
-// Why did you do that?
-
-Time: 22-7-21 下午7:07
-Description: Loading screen debug info
-
-This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
-
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- System Details --
-Details:
-	Minecraft Version: 1.7.10
-	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_321, Oracle Corporation
-	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 235447096 bytes (224 MB) / 359661568 bytes (343 MB) up to 7602176000 bytes (7250 MB)
-	JVM Flags: 0 total; 
-	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: 
-	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 516.59' Renderer: 'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-[19:07:31] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
-[19:07:31] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1614 Initialized
-[19:07:31] [Client thread/INFO] [FML]: Replaced 183 ore recipies
-[19:07:31] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
-[19:07:31] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
-[19:07:31] [Client thread/INFO] [FML]: Searching E:\Repos\Mod\1.7.10-UltimateV3\eclipse\mods for mods
-[19:07:35] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
-[19:07:35] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, ultimate] at CLIENT
-[19:07:35] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, ultimate] at SERVER
-[19:07:35] [Client thread/INFO] [Ultimate]: Loading Ultimate Mod version 3.0.0.0
-[19:07:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ultimate Mod
-[19:07:35] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[19:07:35] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
-[19:07:35] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[19:07:35] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[19:07:35] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[19:07:35] [Client thread/INFO] [Ultimate]: Ultimate Mod pre-initializating
-[19:07:35] [Client thread/WARN] [FML]: ****************************************
-[19:07:35] [Client thread/WARN] [FML]: * Illegal extra prefix ultimate for name ultimate:ultimate_sword, invalid registry invocation/invalid name?
-[19:07:35] [Client thread/WARN] [FML]: *  at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:809)
-[19:07:35] [Client thread/WARN] [FML]: *  at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:149)
-[19:07:35] [Client thread/WARN] [FML]: *  at heckerpowered.ultimate.common.item.UltimateItem.<clinit>(UltimateItem.java:18)
-[19:07:35] [Client thread/WARN] [FML]: *  at heckerpowered.ultimate.common.proxy.UltimateServerProxy.onPreInitialization(UltimateServerProxy.java:20)
-[19:07:35] [Client thread/WARN] [FML]: *  at heckerpowered.ultimate.client.proxy.UltimateClientProxy.onPreInitialization(UltimateClientProxy.java:22)
-[19:07:35] [Client thread/WARN] [FML]: *  at heckerpowered.ultimate.common.UltimateMod.onPreInitialization(UltimateMod.java:85)...
-[19:07:35] [Client thread/WARN] [FML]: ****************************************
-[19:07:35] [Client thread/INFO] [Ultimate]: Loading item heckerpowered.ultimate.common.item.ItemUltimateSword@7cc4ba38
-[19:07:35] [Client thread/INFO] [FML]: Applying holder lookups
-[19:07:35] [Client thread/INFO] [FML]: Holder lookups applied
-[19:07:35] [Client thread/INFO] [FML]: Injecting itemstacks
-[19:07:35] [Client thread/INFO] [FML]: Itemstack injection complete
-[19:07:35] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[19:07:35] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:815)
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:768)
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:689)
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
-[19:07:35] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	... 4 more
-[19:07:35] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[19:07:35] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:07:36] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[19:07:36] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[19:07:36] [Sound Library Loader/INFO]: Sound engine started
-[19:07:37] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[19:07:37] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[19:07:37] [Client thread/INFO] [Ultimate]: Ultimate Mod initializating
-[19:07:37] [Client thread/INFO] [FML]: Injecting itemstacks
-[19:07:37] [Client thread/INFO] [FML]: Itemstack injection complete
-[19:07:37] [Client thread/INFO] [Ultimate]: Ultimate Mod post-initializating
-[19:07:37] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
-[19:07:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ultimate Mod
-[19:07:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:07:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:07:37] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[19:07:37] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[19:07:37] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[19:07:37] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[19:07:37] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[19:07:37] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[19:07:37] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[19:07:37] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:07:37] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[19:07:38] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[19:07:38] [Sound Library Loader/INFO]: Sound engine started
-[19:10:00] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:10:00] [Server thread/INFO]: Generating keypair
-[19:10:00] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
-[19:10:00] [Server thread/INFO] [FML]: Applying holder lookups
-[19:10:00] [Server thread/INFO] [FML]: Holder lookups applied
-[19:10:00] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@34bf8dba)
-[19:10:00] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@34bf8dba)
-[19:10:00] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@34bf8dba)
-[19:10:00] [Server thread/INFO]: Preparing start region for level 0
-[19:10:01] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:10:10] [Server thread/INFO]: Stopping server
-[19:10:10] [Server thread/INFO]: Saving players
-[19:10:10] [Server thread/INFO]: Saving worlds
-[19:10:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:10:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:10:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:10:10] [Server thread/INFO] [FML]: Unloading dimension 0
-[19:10:10] [Server thread/INFO] [FML]: Unloading dimension -1
-[19:10:10] [Server thread/INFO] [FML]: Unloading dimension 1
-[19:10:11] [Server thread/INFO] [FML]: Applying holder lookups
-[19:10:11] [Server thread/INFO] [FML]: Holder lookups applied
-[19:10:11] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:10:11] [Server thread/INFO]: Generating keypair
-[19:10:11] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
-[19:10:11] [Server thread/INFO] [FML]: Applying holder lookups
-[19:10:11] [Server thread/INFO] [FML]: Holder lookups applied
-[19:10:11] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@94bd5cb)
-[19:10:11] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@94bd5cb)
-[19:10:11] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@94bd5cb)
-[19:10:11] [Server thread/INFO]: Preparing start region for level 0
-[19:10:11] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:10:11] [Netty Client IO #1/INFO] [FML]: Server protocol version 2
-[19:10:11] [Netty IO #3/INFO] [FML]: Client protocol version 2
-[19:10:11] [Netty IO #3/INFO] [FML]: Client attempting to join with 4 mods : FML@7.10.99.99,ultimate@3.0.0.0,Forge@10.13.4.1614,mcp@9.05
-[19:10:11] [Netty IO #3/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
-[19:10:11] [Netty Client IO #1/INFO] [FML]: Attempting connection with missing mods [] at SERVER
-[19:10:11] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:10:11] [Server thread/INFO]: Player448[local:E:696f3af5] logged in with entity id 68 at (1392.5, 4.0, 100.5)
-[19:10:11] [Server thread/INFO]: Player448 joined the game
-[19:10:11] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
-[19:10:21] [Client thread/INFO]: [CHAT] minecraft:record_13, minecraft:cauldron, minecraft:heavy_weighted_pressure_plate, minecraft:wooden_pickaxe, minecraft:cooked_porkchop, minecraft:chainmail_leggings, minecraft:bread, minecraft:emerald_block, minecraft:birch_stairs, minecraft:melon_block, minecraft:iron_block, minecraft:item_frame, minecraft:comparator, minecraft:coal, minecraft:sapling, minecraft:compass, minecraft:diamond_shovel, minecraft:stone, minecraft:flowing_lava, minecraft:wheat_seeds, minecraft:diamond_horse_armor, minecraft:jukebox, minecraft:carrot_on_a_stick, minecraft:record_ward, minecraft:diamond_leggings, minecraft:gold_ingot, minecraft:cake, minecraft:record_mall, minecraft:diamond_boots, minecraft:cooked_beef, minecraft:writable_book, minecraft:flowing_water, minecraft:brick, minecraft:feather, minecraft:wool, minecraft:porkchop, minecraft:iron_horse_armor, minecraft:netherrack, minecraft:log2, minecraft:name_tag, minecraft:torch, minecraft:redstone_ore, minecraft:furnace, minecraft:fire_charge, minecraft:spruce_stairs, minecraft:stone_stairs, minecraft:ice, minecraft:reeds, minecraft:gunpowder, minecraft:double_plant, minecraft:carrot, minecraft:bucket, minecraft:golden_sword, minecraft:minecart, minecraft:brick_block, minecraft:nether_brick, minecraft:iron_helmet, minecraft:enchanting_table, minecraft:diamond, minecraft:stonebrick, minecraft:vine, minecraft:log, minecraft:repeater, minecraft:coal_block, minecraft:stone_button, minecraft:gold_block, minecraft:golden_horse_armor, minecraft:glass_bottle, minecraft:quartz_block, minecraft:end_portal, minecraft:fish, minecraft:quartz_ore, minecraft:stained_hardened_clay, minecraft:command_block, minecraft:bowl, minecraft:waterlily, minecraft:dark_oak_stairs, minecraft:oak_stairs, minecraft:grass, minecraft:mycelium, minecraft:cobblestone, minecraft:arrow, minecraft:quartz_stairs, minecraft:ender_chest, minecraft:quartz, minecraft:dirt, minecraft:bow, minecraft:anvil, minecraft:lava, minecraft:diamond_hoe, minecraft:lit_furnace, minecraft:diamond_block, minecraft:filled_map, minecraft:jungle_stairs, minecraft:melon, minecraft:chest_minecart, minecraft:stone_pressure_plate, minecraft:gold_ore, minecraft:golden_boots, minecraft:wooden_shovel, minecraft:hopper, minecraft:enchanted_book, minecraft:spider_eye, minecraft:baked_potato, minecraft:melon_seeds, minecraft:brown_mushroom, minecraft:yellow_flower, minecraft:redstone_torch, minecraft:hopper_minecart, minecraft:double_wooden_slab, minecraft:flint_and_steel, minecraft:string, minecraft:leaves2, minecraft:farmland, minecraft:nether_star, minecraft:brewing_stand, minecraft:glowstone, minecraft:apple, minecraft:boat, minecraft:record_wait, minecraft:potato, minecraft:pumpkin, minecraft:dragon_egg, minecraft:blaze_rod, minecraft:sandstone, minecraft:detector_rail, minecraft:light_weighted_pressure_plate, minecraft:golden_hoe, minecraft:painting, minecraft:stone_hoe, minecraft:golden_shovel, minecraft:iron_chestplate, minecraft:record_stal, minecraft:skull, minecraft:lava_bucket, minecraft:leather_chestplate, minecraft:stone_pickaxe, minecraft:record_mellohi, minecraft:cookie, minecraft:diamond_pickaxe, minecraft:cactus, minecraft:lapis_ore, minecraft:cooked_fished, minecraft:redstone_block, minecraft:sandstone_stairs, minecraft:blaze_powder, minecraft:diamond_helmet, minecraft:command_block_minecart, minecraft:clock, minecraft:iron_leggings, minecraft:wooden_hoe, minecraft:slime_ball, minecraft:rotten_flesh, minecraft:saddle, minecraft:acacia_stairs, minecraft:record_blocks, minecraft:potion, minecraft:experience_bottle, minecraft:redstone, minecraft:netherbrick, minecraft:brick_stairs, minecraft:mushroom_stew, minecraft:map, minecraft:daylight_detector, minecraft:water_bucket, minecraft:lead, minecraft:chicken, minecraft:piston, minecraft:snow_layer, minecraft:firework_charge, minecraft:nether_wart, minecraft:red_mushroom, minecraft:chest, minecraft:fishing_rod, minecraft:iron_sword, minecraft:sticky_piston, minecraft:coal_ore, minecraft:golden_pickaxe, minecraft:bedrock, minecraft:pumpkin_pie, minecraft:iron_hoe, minecraft:record_11, minecraft:gravel, minecraft:crafting_table, minecraft:wheat, minecraft:wooden_pressure_plate, minecraft:pumpkin_seeds, minecraft:snowball, minecraft:iron_ingot, minecraft:lapis_block, minecraft:lever, minecraft:bone, minecraft:paper, minecraft:chainmail_chestplate, minecraft:leather, ultimate:ultimate_sword, minecraft:end_portal_frame, minecraft:diamond_axe, minecraft:sign, minecraft:chainmail_helmet, minecraft:carrots, minecraft:noteblock, minecraft:glass, minecraft:fence, minecraft:clay_ball, minecraft:tallgrass, minecraft:milk_bucket, minecraft:packed_ice, minecraft:trapped_chest, minecraft:red_mushroom_block, minecraft:diamond_sword, minecraft:tnt_minecart, minecraft:flower_pot, minecraft:brown_mushroom_block, minecraft:emerald, minecraft:beacon, minecraft:gold_nugget, minecraft:red_flower, minecraft:golden_helmet, minecraft:dropper, minecraft:glass_pane, minecraft:leather_leggings, minecraft:iron_shovel, minecraft:book, minecraft:fire, minecraft:golden_apple, minecraft:dye, minecraft:leather_boots, minecraft:wooden_sword, minecraft:soul_sand, minecraft:diamond_ore, minecraft:deadbush, minecraft:fireworks, minecraft:speckled_melon, minecraft:bookshelf, minecraft:magma_cream, minecraft:redstone_lamp, minecraft:sand, minecraft:ender_pearl, minecraft:furnace_minecart, minecraft:iron_door, minecraft:snow, minecraft:wooden_door, minecraft:stone_brick_stairs, minecraft:portal, minecraft:chainmail_boots, minecraft:iron_boots, minecraft:golden_axe, minecraft:fence_gate, minecraft:ghast_tear, minecraft:obsidian, minecraft:diamond_chestplate, minecraft:ender_eye, minecraft:iron_pickaxe, minecraft:clay, minecraft:mossy_cobblestone, minecraft:stone_axe, minecraft:golden_carrot, minecraft:lit_pumpkin, minecraft:stick, minecraft:spawn_egg, minecraft:iron_ore, minecraft:web, minecraft:sugar, minecraft:golden_chestplate, minecraft:hay_block, minecraft:poisonous_potato, minecraft:nether_brick_stairs, minecraft:cooked_chicken, minecraft:wooden_button, minecraft:egg, minecraft:double_stone_slab, minecraft:wooden_axe, minecraft:tnt, minecraft:stone_slab, minecraft:potatoes, minecraft:emerald_ore, minecraft:beef, minecraft:record_cat, minecraft:leaves, minecraft:tripwire_hook, minecraft:fermented_spider_eye, minecraft:activator_rail, minecraft:trapdoor, minecraft:record_far, minecraft:leather_helmet, minecraft:written_book, minecraft:water, minecraft:golden_rail, minecraft:shears, minecraft:golden_leggings, minecraft:carpet, minecraft:flint, minecraft:nether_brick_fence, minecraft:record_strad, minecraft:planks, minecraft:glowstone_dust, minecraft:dispenser, minecraft:record_chirp, minecraft:hardened_clay, minecraft:bed, minecraft:stained_glass_pane, minecraft:sponge, minecraft:cocoa, minecraft:iron_bars, minecraft:stained_glass, minecraft:stone_sword, minecraft:rail, minecraft:monster_egg, minecraft:mob_spawner, minecraft:iron_axe, minecraft:wooden_slab, minecraft:stone_shovel, minecraft:cobblestone_wall, minecraft:ladder, minecraft:end_stone
-[19:10:24] [Server thread/INFO]: [Player448: Given [§aU§bl§9t§di§cm§6a§et§ae§b §9S§dw§co§6r§ed] * 1 to Player448]
-[19:10:24] [Client thread/INFO]: [CHAT] Given [§aU§bl§9t§di§cm§6a§et§ae§b §9S§dw§co§6r§ed] * 1 to Player448
-[19:10:25] [Server thread/INFO]: Player448 has just earned the achievement [Taking Inventory]
-[19:10:25] [Client thread/INFO]: [CHAT] Player448 has just earned the achievement [Taking Inventory]
-[19:10:29] [Server thread/INFO]: Saving and pausing game...
-[19:10:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:10:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:10:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:10:34] [Server thread/INFO]: Saving and pausing game...
-[19:10:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:10:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:10:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:11:17] [Server thread/INFO]: Saving and pausing game...
-[19:11:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:11:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:11:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:11:17] [Client thread/INFO]: Stopping!
-[19:11:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[19:11:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[19:11:17] [Server thread/INFO]: Stopping server
-[19:11:17] [Server thread/INFO]: Saving players
-[19:11:17] [Server thread/INFO]: Saving worlds
-[19:11:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:11:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:11:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:11:17] [Server thread/INFO] [FML]: Unloading dimension 0
-[19:11:17] [Server thread/INFO] [FML]: Unloading dimension -1
-[19:11:17] [Server thread/INFO] [FML]: Unloading dimension 1
-[19:11:17] [Server thread/INFO] [FML]: Applying holder lookups
-[19:11:17] [Server thread/INFO] [FML]: Holder lookups applied
-[19:11:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[19:11:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+:genSrgs SKIPPED
+:reobf
+:assemble
+:check UP-TO-DATE
+:build
 
 BUILD SUCCESSFUL
 
-Total time: 4 mins 0.697 secs
+Total time: 6.106 secs
