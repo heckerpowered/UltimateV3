@@ -8,8 +8,9 @@ Moreover, if you have any questions about Minecraft Mod developing or anything e
 
 ## Build & Installation
 
-You can download latest compiled binary files from releases, if you want to build Ultimate-V3, run following command:
+You can download latest compiled binary files from releases. If you want to build Ultimate-V3,
+download the source and run following command in the root directory of Ultimate-V3:
 
-```bash
+```cmd
 gradlew setupDevWorkspace eclipse
 ```
