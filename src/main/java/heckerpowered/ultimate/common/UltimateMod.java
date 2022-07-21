@@ -116,4 +116,13 @@ public final class UltimateMod {
     public static final ResourceLocation resource(@Nonnull final String path) {
         return new ResourceLocation(MODID, path);
     }
+
+    /**
+     * Get ultimate mod's proxy.
+     *
+     * @return The ultimate mod's proxy.
+     */
+    public static final UltimateProxy getProxy() {
+        return proxy;
+    }
 }
