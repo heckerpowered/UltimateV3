@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30a38bf8-316c-479f-85d5-0d044118464c" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+    <option name="REVERSE_PATCH" value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectId" id="1eridwyFb1gaetAjW1DfhLJ4zAn" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state />
+    </entry>
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/qinglongmp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.unlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qinglongmp.chemistry.init.item" />
+      <recent name="com.qinglongmp.chemical.common" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.qinglongmp.chemistry.potion" />
+      <recent name="com.qinglongmp.chemical.item" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+      <command value="gradle build --offline" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Minecraft Client">
+    <configuration default="true" factoryName="Applet" type="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$PROJECT_DIR$/../bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option enabled="false" name="BuildArtifacts" />
+        <option enabled="true" name="Make" />
+      </method>
+    </configuration>
+    <configuration default="true" name="&lt;template&gt;" selected="false" type="WebApp">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Minecraft Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="GradleStart" />
+      <module name="forge-1.7.10-10.13.4.1614-1.7.10-src" />
+      <option name="VM_PARAMETERS" value="-Xincgc -Xmx1024M -Xms1024M" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../forge-1.7.10-10.13.4.1614-1.7.10-src\eclipse" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" factoryName="Application" name="Minecraft Client" type="Application">
+      <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
+      <option name="MAIN_CLASS_NAME" value="GradleStart" />
+      <option name="VM_PARAMETERS" value="-Xincgc -Xmx1024M -Xms1024M" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../forge-1.7.10-10.13.4.1614-1.7.10-src\eclipse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="forge-1.7.10-10.13.4.1614-1.7.10-src" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration name="Minecraft Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
+      <module name="forge-1.7.10-10.13.4.1614-1.7.10-src" />
+      <option name="VM_PARAMETERS" value="-Xincgc -Dfml.ignoreInvalidMinecraftCertificates=true" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../forge-1.7.10-10.13.4.1614-1.7.10-src\eclipse" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" factoryName="Application" name="Minecraft Server" type="Application">
+      <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
+      <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
+      <option name="VM_PARAMETERS" value="-Xincgc -Dfml.ignoreInvalidMinecraftCertificates=true" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../forge-1.7.10-10.13.4.1614-1.7.10-src\eclipse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="forge-1.7.10-10.13.4.1614-1.7.10-src" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build --offline" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--offline" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Minecraft Client" />
+      <item itemvalue="Application.Minecraft Server" />
+      <item itemvalue="Gradle.build --offline" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30a38bf8-316c-479f-85d5-0d044118464c" name="默认更改列表" comment="" />
+      <created>1595086210018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595086210018</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="562" y="225" key="#Notifications" timestamp="1595136731963">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="562" y="225" key="#Notifications/0.0.1360.728@0.0.1360.728" timestamp="1595136731963" />
+    <state x="410" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595144680860">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="410" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1360.728@0.0.1360.728" timestamp="1595144680860" />
+    <state x="134" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595598626599">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="134" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1595598626599" />
+    <state x="410" y="138" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1595093229306">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="410" y="138" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1595093229306" />
+    <state x="444" y="226" width="656" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595567696978">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="444" y="226" width="656" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1360.728@0.0.1360.728" timestamp="1595567696978" />
+    <state x="434" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595134530401">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="434" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1360.728@0.0.1360.728" timestamp="1595134530401" />
+    <state x="579" y="109" key="EnvironmentVariablesDialog" timestamp="1595087727635">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="579" y="109" key="EnvironmentVariablesDialog/0.0.1360.728@0.0.1360.728" timestamp="1595087727635" />
+    <state x="321" y="70" key="FileChooserDialogImpl" timestamp="1595089889167">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="321" y="70" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1595089889167" />
+    <state width="1316" height="178" key="GridCell.Tab.0.bottom" timestamp="1595569948517">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="178" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1595569948517" />
+    <state width="1316" height="178" key="GridCell.Tab.0.center" timestamp="1595569948517">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="178" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1595569948517" />
+    <state width="1316" height="178" key="GridCell.Tab.0.left" timestamp="1595569948517">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="178" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1595569948517" />
+    <state width="1316" height="178" key="GridCell.Tab.0.right" timestamp="1595569948517">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1316" height="178" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1595569948517" />
+    <state x="260" y="106" key="IDE.errors.dialog" timestamp="1595093686112">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="260" y="106" key="IDE.errors.dialog/0.0.1360.728@0.0.1360.728" timestamp="1595093686112" />
+    <state x="160" y="0" key="SettingsEditor" timestamp="1595599994348">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="160" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1595599994348" />
+    <state x="479" y="140" key="chooseDestDirectoryDialog" timestamp="1595123437118">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="479" y="140" key="chooseDestDirectoryDialog/0.0.1360.728@0.0.1360.728" timestamp="1595123437118" />
+    <state x="320" y="80" width="868" height="536" key="find.popup" timestamp="1595221853293">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="320" y="80" width="868" height="536" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1595221853293" />
+    <state x="381" y="119" key="refactoring.ChangeSignatureDialog" timestamp="1595092387752">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="381" y="119" key="refactoring.ChangeSignatureDialog/0.0.1360.728@0.0.1360.728" timestamp="1595092387752" />
+    <state x="371" y="69" width="672" height="677" key="run.anything.popup" timestamp="1595134478209">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="371" y="69" width="672" height="677" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1595134478209" />
+  </component>
+</project>
