@@ -20,3 +20,4 @@ gradlew setupDevWorkspace eclipse
 * Untargetable
 * Kill everything instantly
 * High compability
+* High performance
