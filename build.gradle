@@ -8,11 +8,18 @@ buildscript {
             name = "forge"
             url = "https://files.minecraftforge.net/maven"
         }
+
+        maven {
+            name = "sponge"
+            url = "https://repo.spongepowered.org/maven"
+        }
+
         maven {
             name = "sonatype"
             url = "https://oss.sonatype.org/content/repositories/snapshots/"
         }
     }
+
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
@@ -20,7 +27,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "3.0"
+version = "3.0.0.0"
 group= "heckerpowered.ultimate" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ultimate"
 
@@ -34,6 +41,8 @@ repositories {
         name = "central"
         url = "https://repo1.maven.org/maven2"
     }
+
+    maven { url = "https://repo.spongepowered.org/maven" }
 }
 
 dependencies {
@@ -49,6 +58,7 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
 }
 
 processResources
@@ -69,4 +79,14 @@ processResources
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
+}
+
+jar {
+  manifest.attributes([
+      "FMLCorePlugin": "heckerpowered.ultimate.common.core.UltimateCore",
+      "FMLCorePluginContainsFMLMod": true
+  ])
+}
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
 }

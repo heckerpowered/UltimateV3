@@ -62,7 +62,7 @@ public final class UltimateMod {
      * Create a new instance of the mod.
      */
     private UltimateMod() {
-        LOGGER.info("Loading {} version {}", NAME, VERSION);
+        LOGGER.info("Loading {} version {}, build with forge version 10.13.4.1614", NAME, VERSION);
     }
 
     /**
