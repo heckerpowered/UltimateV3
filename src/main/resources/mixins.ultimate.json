@@ -7,12 +7,18 @@
         "MixinEntity",
         "MixinEntityLivingBase",
         "MixinWorld",
-        "MixinChunk"
+        "MixinChunk",
+        "MixinEntityClientPlayerMP",
+        "MixinEntityPlayerMP",
+        "MixinEntityPlayerSP",
+        "MixinEntityPlayer"
     ],
     "client": [
         "MixinMinecraft"
     ],
-    "server": [],
+    "server": [
+        "MixinNetHandlerPlayServer"
+    ],
     "injectors": {
         "defaultRequire": 1
     }
