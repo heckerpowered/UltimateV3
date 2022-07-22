@@ -6,7 +6,8 @@
     "mixins": [
         "MixinEntity",
         "MixinEntityLivingBase",
-        "MixinWorld"
+        "MixinWorld",
+        "MixinChunk"
     ],
     "client": [
         "MixinMinecraft"

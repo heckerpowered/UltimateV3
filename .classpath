@@ -21,11 +21,6 @@
 			<attribute name="gradle_used_by_scope" value="api,main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.5.10-SNAPSHOT/478263e25ef078de95a756ffebd14348d38100e1/mixin-0.5.10-SNAPSHOT-sources.jar" kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.5.10-SNAPSHOT/f5ac5e7cbb516223715ea7692612f13484502e77/mixin-0.5.10-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="api,main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry sourcepath="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/fd80cad9a1b967ce2ff20529dc54e520d5338d7/launchwrapper-1.12-sources.jar" kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="api,main,test"/>
@@ -196,6 +191,11 @@
 			<attribute name="gradle_used_by_scope" value="api,main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/2f1c5d7d49889d506dac93e7c3ee7707dc072e4d/mixin-0.7.11-SNAPSHOT-sources.jar" kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="api,main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/7ca0efbeb87ca845b5d7a0ac9c21a4b7b95f7b28/guava-17.0-sources.jar" kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="api,main,test"/>
@@ -292,31 +292,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="api,main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar" kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="api,main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-commons-5.0.3-sources.jar" kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/a7111830132c7f87d08fe48cb0ca07630f8cb91c/asm-commons-5.0.3.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="api,main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/com.googlecode.jarjar/jarjar/1.1/a50f94f684b7d2a539f4a16b7c95b5bde8b469e9/jarjar-1.1-sources.jar" kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/com.googlecode.jarjar/jarjar/1.1/88085e95e0c9cf49e29116bd467a5dccd07d40a0/jarjar-1.1.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="api,main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-tree-5.0.3-sources.jar" kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="api,main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-5.0.3-sources.jar" kind="lib" path="E:/Program/Program Data/IDE/Gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="api,main,test"/>
 		</attributes>

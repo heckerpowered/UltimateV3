@@ -64,15 +64,14 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-    shade 'org.spongepowered:mixin:0.5.10-SNAPSHOT'
+    shade 'org.spongepowered:mixin:0.7+'
 }
 
 jar {
     from sourceSets.main.output
 
-    configurations.shade.copyRecursive().setTransitive(false).each { artifact ->
-		from (zipTree(artifact))
-	}
+    from { (configurations.shade).collect { it.isDirectory() ? it : zipTree(it) }
+     } { exclude 'META-INF/*.RSA', 'META-INF/*.SF', 'META-INF/*.DSA' }
 
     from refMap
     manifest.attributes(

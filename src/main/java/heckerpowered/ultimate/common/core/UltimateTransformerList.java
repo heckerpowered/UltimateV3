@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
 
-import org.spongepowered.asm.mixin.transformer.MixinTransformer.Proxy;
+import org.spongepowered.asm.mixin.transformer.Proxy;
 
 import cpw.mods.fml.common.asm.transformers.ModAPITransformer;
 import net.minecraft.launchwrapper.IClassTransformer;
