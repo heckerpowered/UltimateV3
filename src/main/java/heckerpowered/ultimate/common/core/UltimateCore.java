@@ -38,6 +38,9 @@ public final class UltimateCore implements IFMLLoadingPlugin {
         Mixins.addConfiguration("mixins.ultimate.json");
         MixinEnvironment.getDefaultEnvironment().setObfuscationContext("searge");
 
+        //
+        // Reorder transformers so that Mixin can be the last one to take effect
+        //
         Field field = LaunchClassLoader.class.getDeclaredField("transformers");
         field.setAccessible(true);
         field.set(Launch.classLoader,

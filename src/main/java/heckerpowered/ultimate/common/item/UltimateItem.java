@@ -16,6 +16,5 @@ public final class UltimateItem {
     }
 
     public static final ItemUltimateSword ULTIMATE_SWORD = (ItemUltimateSword) GameRegistry.registerItem(
-            new ItemUltimateSword(),
-            ItemUltimateSword.NAME, UltimateMod.MODID);
+            new ItemUltimateSword(), ItemUltimateSword.NAME, UltimateMod.MODID);
 }
