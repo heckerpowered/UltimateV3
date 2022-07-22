@@ -7,6 +7,7 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import heckerpowered.ultimate.common.UltimateMod;
 import heckerpowered.ultimate.common.util.text.RainbowText;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
@@ -46,6 +47,18 @@ public final class ItemUltimateSword extends ItemSword {
         return false;
     }
 
+    @Override
+    public void setDamage(ItemStack stack, int damage) {
+        //
+        // Do nothing
+        //
+    }
+
+    @Override
+    public int getDamage(ItemStack stack) {
+        return 0;
+    }
+
     /**
      * Determine whether the stack should render enchant effects.
      */
@@ -61,5 +74,13 @@ public final class ItemUltimateSword extends ItemSword {
     @Override
     public String getItemStackDisplayName(@Nonnull final ItemStack stack) {
         return RainbowText.FABULOUNESS.format(super.getItemStackDisplayName(stack));
+    }
+
+    /**
+     * Prevent the item from being dropped.
+     */
+    @Override
+    public boolean onDroppedByPlayer(@Nonnull final ItemStack item, @Nonnull final EntityPlayer player) {
+        return false;
     }
 }

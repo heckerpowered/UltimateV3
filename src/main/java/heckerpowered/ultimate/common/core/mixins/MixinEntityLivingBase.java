@@ -15,14 +15,14 @@ public final class MixinEntityLivingBase {
 
     @Inject(method = "getHealth", at = @At("HEAD"), cancellable = true)
     public void getHealth(CallbackInfoReturnable<Float> info) {
-        if (self instanceof EntityPlayer && UltimateUtil.isUltimatePlayer((EntityPlayer) self)) {
+        if (UltimateUtil.isUltimatePlayer((EntityPlayer) self)) {
             info.setReturnValue(20.0F);
         }
     }
 
     @Inject(method = "getMaxHealth", at = @At("HEAD"), cancellable = true)
     public void getMaxHealth(CallbackInfoReturnable<Float> info) {
-        if (self instanceof EntityPlayer && UltimateUtil.isUltimatePlayer((EntityPlayer) self)) {
+        if (UltimateUtil.isUltimatePlayer((EntityPlayer) self)) {
             info.setReturnValue(20.0F);
         }
     }

@@ -22,15 +22,15 @@ public final class UltimateUtil {
     private static final Set<String> PLAYERS = new HashSet<>();
 
     public static final boolean isUltimatePlayer(@Nonnull final Entity entity) {
-        return entity instanceof EntityPlayer && isUltimatePlayer((EntityPlayer) entity);
+        return entity != null && entity instanceof EntityPlayer && isUltimatePlayer((EntityPlayer) entity);
     }
 
     public static final boolean isUltimatePlayer(@Nonnull final Object player) {
-        return player instanceof EntityPlayer && isUltimatePlayer((EntityPlayer) player);
+        return player != null && player instanceof EntityPlayer && isUltimatePlayer((EntityPlayer) player);
     }
 
     public static final boolean isUltimatePlayer(@Nonnull final EntityPlayer player) {
-        return PLAYERS.contains(player.getCommandSenderName());
+        return player != null && player.getGameProfile() != null && PLAYERS.contains(player.getCommandSenderName());
     }
 
     public static final void addUltimatePlayer(@Nonnull final EntityPlayer player) {
