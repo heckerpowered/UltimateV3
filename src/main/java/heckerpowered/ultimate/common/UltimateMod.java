@@ -10,6 +10,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import heckerpowered.ultimate.common.network.UltimateNetwork;
 import heckerpowered.ultimate.common.proxy.UltimateProxy;
 import net.minecraft.util.ResourceLocation;
 
@@ -63,6 +64,7 @@ public final class UltimateMod {
      */
     private UltimateMod() {
         LOGGER.info("Loading {} version {}, build with forge version 10.13.4.1614", NAME, VERSION);
+        UltimateNetwork.initialize();
     }
 
     /**

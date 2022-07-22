@@ -3,7 +3,10 @@
     "package": "heckerpowered.ultimate.common.core.mixins",
     "refmap": "mixins.ultimate.refmap.json",
     "compatibilityLevel": "JAVA_8",
-    "mixins": [],
+    "mixins": [
+        "MixinEntity",
+        "MixinWorld"
+    ],
     "client": [
         "MixinMinecraft"
     ],
