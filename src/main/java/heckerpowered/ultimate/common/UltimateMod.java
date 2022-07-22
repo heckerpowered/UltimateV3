@@ -36,7 +36,7 @@ public final class UltimateMod {
     /**
      * Define a version for the mod.
      */
-    public static final String VERSION = "3.0.0.0";
+    public static final String VERSION = "3.0.0.1";
 
     /**
      * Directly reference a slf4j logger.

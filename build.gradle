@@ -19,7 +19,7 @@ apply plugin: 'forge'
 
 sourceCompatibility = targetCompatibility = 1.8
 
-version = "3.0.0.0"
+version = "3.0.0.1"
 group= "heckerpowered.ultimate" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ultimate"
 
