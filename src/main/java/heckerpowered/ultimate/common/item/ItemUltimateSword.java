@@ -21,11 +21,16 @@ import net.minecraftforge.common.util.EnumHelper;
 public final class ItemUltimateSword extends ItemSword {
 
     /**
-     * Define the item id in a common place for everything to reference.
+     * Define the item's name.
      *
      * @see GameRegistry#registerItem(Item, String, String)
      */
-    public static final String NAME = UltimateMod.resource("ultimate_sword").toString();
+    public static final String NAME = "ultimate_sword";
+
+    /**
+     * Define the item's full id in a common place for everything to reference.
+     */
+    public static final String PATH = UltimateMod.resource(NAME).toString();
 
     /**
      * Create a new ultimate sword.
@@ -33,7 +38,7 @@ public final class ItemUltimateSword extends ItemSword {
     public ItemUltimateSword() {
         super(EnumHelper.addToolMaterial("ultimate", Integer.MAX_VALUE, Integer.MAX_VALUE,
                 Float.MAX_VALUE, Float.MAX_VALUE, Integer.MAX_VALUE));
-        setUnlocalizedName(NAME).setTextureName(NAME);
+        setUnlocalizedName(NAME).setTextureName(PATH);
     }
 
     /**
