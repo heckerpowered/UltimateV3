@@ -21,8 +21,7 @@ public class MixinEntityPlayer {
         }
     }
 
-    @Inject(method = "setBeenAttacked", at = @At("HEAD"), cancellable = true)
-
+    @Inject(method = "collideWithPlayer", at = @At("HEAD"), cancellable = true)
     public void collideWithPlayer(Entity entity, CallbackInfo info) {
         if (UltimateUtil.isUltimatePlayer(this) || UltimateUtil.isUltimatePlayer(entity)) {
             info.cancel();
