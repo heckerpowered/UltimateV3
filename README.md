@@ -21,3 +21,4 @@ gradlew setupDevWorkspace eclipse
 * Kill everything instantly
 * High compability
 * High performance
+* Memory Integrity
